@@ -1,0 +1,32 @@
+.selector{
+   display: flex;
+   transition: all ease-in .2s;
+}
+
+.select{
+   padding: 10px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+}
+
+.option{
+   padding: 5px 20px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+}
+.option:hover{
+   cursor: pointer;
+   border: 1px solid rgba(97, 209, 65, 1);
+   background-color: rgba(97, 209, 65, .3);
+}
+
+.hover{
+   cursor: pointer;
+   border: 1px solid rgba(97, 209, 65, 1);
+   background-color: rgba(97, 209, 65, .3);
+   border-radius: 10px;
+   padding: 5px 20px;
+}

@@ -1,0 +1,41 @@
+.white{
+    background-color: #FFFFFF;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: .85rem;
+    padding: 0;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    color: #61d141;
+}
+
+.endNav, .midNav, .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midNav{
+    font-weight: bold;
+}
+
+.endNav{
+    gap: 10px;
+}
+
+.endNav .icon{
+    padding: 7px;
+    background-color: #61d141;
+    border-radius: 50px;
+}

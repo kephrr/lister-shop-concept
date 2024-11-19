@@ -1,0 +1,14 @@
+.normal{
+    display: flex;
+    gap: 5px;
+    background-color: #E6E6E6FF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight:500;
+    border: none;
+}
+
+.normal:hover{
+    cursor: pointer;
+}

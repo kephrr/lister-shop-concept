@@ -1,0 +1,10 @@
+.attributes {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.attribute {
+    display: flex;
+    gap: 5px;
+}
